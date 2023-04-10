@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  console.log('Hi, This is testing for CI/CD pipeline!');
+  console.log('Hi, This is testing for CI/CD pipeline!!');
   res.send('This is test user response!');
 });
 
